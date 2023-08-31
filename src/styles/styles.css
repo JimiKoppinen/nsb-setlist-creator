@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: gobold-high-thin;
+  src: url(../assets/fonts/Gobold\ High\ Thin.woff);
+}
+
+@font-face {
+  font-family: biryani-light;
+
+  src: url(../assets/fonts/Biryani-Regular.woff);
+  }
+  
+
+.backdrop {  
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  background-image: url("../assets/NSB_background.png");
+  width: 3200px;
+  height: 1200px;
+  filter: blur(5px);
+
+}
+.content {
+  color: beige;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+}
+
+/* #b2b1b9 */
+
+.header {
+  margin-top: 10px;
+  font-family: gobold-high-thin;
+  font-size: 60px;
+}
+.card-font {
+  font-family: biryani-light;
+
+}
+
